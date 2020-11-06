@@ -14,7 +14,7 @@ Output:\
 ### 思路
 填充的路径为向右->向下->向左->向上->向右，**四种状态**。利用一个二维数组来描述这四个状态，当“碰壁”时，切换到下一个状态。
 ### 代码
-```
+```java
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] res = new int[n][n];
